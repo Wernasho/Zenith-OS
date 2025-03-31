@@ -1,0 +1,42 @@
+#path {
+  color: #555;
+  padding: 4px;
+  border: 0.5px #aaa solid;
+}
+
+body {
+  background: #000;
+  font-family: Consolas;
+}
+
+.files-container {
+  /*display: block;*/
+  margin: 12.5px;
+  padding: 25px;
+  background: #333;
+  color: white;
+}
+
+button {
+  border: none;
+  font-family: Consolas;
+}
+
+p {
+  margin: 0px;
+  padding: 2.5px;
+}
+
+p:hover {
+  background: rgb(24,24,24);
+}
+
+button:hover {
+  background: rgb(146,146,146)
+}
+
+p:active, button:active {
+  background: #000;
+  color: #fff;
+}
+
